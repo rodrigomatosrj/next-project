@@ -1,0 +1,10 @@
+{
+  "page.home.head.title": "Créer Next App",
+  "page.home.head.description": "Généré par create next app",
+  "page.home.title": "Bienvenue à <b>Next.js i18n tutorial</b>",
+  "page.home.description": "Vous consultez actuellement la page d'accueil en français 🚀",
+  "page.test.head.title": "test em french",
+  "page.test.head.description": "test description em french",
+  "page.test.title": "test em french",
+  "page.test.description": "Vous consultez actuellement la page de test en français ✌🏻"
+}

@@ -1,0 +1,23 @@
+@import "mixins";
+@import "variables";
+
+.container {
+  min-height: calc(100vh - 30px);
+  padding: 6rem 0;
+
+  h1 {
+    @include font_h1;
+    color: $primary-color;
+    margin: 0;
+  }
+  
+  p {
+    margin: 2rem 0;
+    @include font_subtitle-2;
+  }
+  
+
+}
+
+
+

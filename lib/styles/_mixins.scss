@@ -1,0 +1,115 @@
+@mixin font_h1 {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 5.8rem;
+    letter-spacing: 0.01em;
+}
+
+@mixin font_h2 {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 5.4rem;
+    letter-spacing: 0.01em;
+}
+
+@mixin font_h3 {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.0rem;
+    line-height: 4.2rem;
+    letter-spacing: 0.01em;
+}
+
+@mixin font_h4 {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    letter-spacing: 0.01em;
+}
+
+@mixin font_h5 {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.0rem;
+    line-height: 3.6rem;
+    letter-spacing: 0.01em;
+}
+
+@mixin font_h6 {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.01em;
+}
+
+@mixin font_subtitle-1 {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.01em;
+}
+
+@mixin font_body-1 {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.01em;
+}
+
+@mixin font_subtitle-2 {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.01em;
+}
+
+@mixin font_body-2 {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    letter-spacing: 0.01em;
+}
+
+@mixin font_button {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.05em;
+}
+
+@mixin font_overline {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.02em;
+}
+
+@mixin caption {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}

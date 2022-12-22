@@ -1,0 +1,39 @@
+@import "mixins";
+@import "variables";
+
+.main {
+    margin-top: 8.4rem;
+    padding: 2.4rem 1.2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div{
+        display: flex;
+        justify-content: space-evenly;
+        width: 300px;
+        text-transform: uppercase;
+        @include caption;
+    }
+}
+
+.active{
+    color: $primary-color;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .main {
+        margin-top: calc(8.4rem + 3.6rem);
+        padding: 3.6rem 1.6rem;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .main {
+        padding: 0 12.5rem 8rem 12.5rem;
+    }
+}

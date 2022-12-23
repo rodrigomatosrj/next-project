@@ -20,6 +20,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 # SASS
 
+# Material UI
+
+# Firebase authentication (google)
+
 # Localization
 
 The app uses Next i18n libraries and the extra package react-intl

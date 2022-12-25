@@ -5,7 +5,6 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { CacheProvider } from "@emotion/react";
 import theme from "../lib/config/theme";
 import createEmotionCache from "../lib/config/createEmotionCache";
-import { initFirebase } from "../lib/config/firebase";
 
 import "../lib/styles/globals.css";
 import { useRouter } from "next/router";
@@ -27,7 +26,6 @@ export default function App({
   pageProps,
   emotionCache = clientSideEmotionCache,
 }) {
-  initFirebase();
   const { locale } = useRouter();
 
   return (

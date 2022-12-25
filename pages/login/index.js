@@ -1,15 +1,15 @@
 import Seo from "../../lib/components/seo";
 import styles from "../../lib/styles/Login.module.scss";
 
-import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import Button from "@mui/material/Button";
 import { useIntl, FormattedMessage } from "react-intl";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useRouter } from "next/router";
+import { auth } from "../../lib/config/firebase";
 
 export default function Test() {
   const provider = new GoogleAuthProvider();
-  const auth = getAuth();
   const intl = useIntl();
   const [user, loading] = useAuthState(auth);
   const router = useRouter();
@@ -24,7 +24,6 @@ export default function Test() {
 
   const signIn = async () => {
     const result = await signInWithPopup(auth, provider);
-    console.log(result.user);
   };
 
   const title = intl.formatMessage({ id: "page.test.head.title" });
